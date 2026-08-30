@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altair's Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #F2E0CF; /* Blanket */
+            color: #2D2D23; /* Kimber */
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        a {
+            color: #B48954; /* Oak */
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        a:hover {
+            color: #854628; /* Autumn Fern */
+            text-decoration: underline;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 10%;
+            align-items: center;
+        }
+        .logo { 
+            font-weight: bold; 
+            font-size: 1.5rem; 
+            color: #854628; 
+        }
+        .nav-links a {
+            color: #7C7458; 
+            margin-left: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        .nav-links a:hover { color: #854628; text-decoration: none; }
+        
+        /* Hero Section */
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 10% 100px;
+        }
+        .hero-text { max-width: 50%; }
+        .greeting { color: #B48954; font-size: 1rem; margin-bottom: 10px; font-weight: 600; }
+        .title {
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 10px;
+            color: #2D2D23;
+        }
+        .highlight {
+            background: linear-gradient(90deg, #854628, #B48954); 
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .desc { color: #7C7458; font-size: 1.1rem; margin-bottom: 30px; margin-top: 15px;}
+        
+        .buttons { display: flex; gap: 15px; }
+        .btn {
+            padding: 12px 25px;
+            border-radius: 30px;
+            font-weight: 600;
+        }
+        .btn-primary {
+            background-color: #854628;
+            color: #F2E0CF;
+        }
+        .btn-primary:hover { background-color: #7C7458; text-decoration: none; color: #F2E0CF; }
+        .btn-secondary {
+            border: 2px solid #B48954;
+            color: #854628;
+        }
+        .btn-secondary:hover { background-color: #D4C7B4; text-decoration: none; }
+
+        .hero-image {
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            border: 4px solid #B48954;
+            background-color: #D4C7B4; 
+            box-shadow: 0 0 40px rgba(180, 137, 84, 0.3); 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #7C7458;
+            font-weight: bold;
+        }
+
+        /* Content Sections */
+        .content-section {
+            padding: 0 10% 80px;
+        }
+        .section-title {
+            color: #854628;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #D4C7B4;
+            padding-bottom: 10px;
+        }
+
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #D4C7B4; /* Mushroom */
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        td, th {
+            padding: 15px;
+            border-bottom: 1px solid #7C7458;
+            vertical-align: top;
+        }
+        td:first-child {
+            font-weight: bold;
+            color: #854628;
+            width: 20%;
+        }
+
+        /* DNF Box */
+        .danger-box {
+            background-color: #D4C7B4;
+            border-left: 5px solid #854628;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        
+        .social-item {
+            margin-bottom: 20px;
+        }
+        .social-item h4 {
+            color: #854628;
+            margin-bottom: 5px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Altair.</div>
+        <div class="nav-links">
+            <a href="#interest">Interest</a>
+            <a href="agency.html">Closed Agency</a>
+            <a href="#socials">Socials</a>
+        </div>
+    </nav>
+
+    <!-- SAMPUL ATAS -->
+    <section class="hero">
+        <div class="hero-text">
+            <p class="greeting">—— import Type Account as Cyber Account</p>
+            <h1 class="title">Altair Raditya Daniswara</h1>
+            <h1 class="title highlight">INTJ / ISTJ</h1>
+            
+            <p class="desc">
+                Legal (20+)<br>
+                Capricorn Sun, Earth sign Moon and Rising. 6w5/1w9.<br>
+                A proud <b>Ravenclaw</b> minding their own business in the digital world.
+            </p>
+            
+            <div class="buttons">
+                <a href="agency.html" class="btn btn-primary">Places We Met</a>
+                <a href="#interest" class="btn btn-secondary">Scroll Down ↓</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <p>[Insert Foto Altair Here]</p>
+        </div>
+    </section>
+
+    <!-- TABEL INTEREST -->
+    <section class="content-section" id="interest">
+        <h2 class="section-title">Interest</h2>
+        <table>
+            <tr>
+                <td>General</td>
+                <td>Animangas, Kpop, K-dramas, Games, Skincare, Perfumes/Fragrances, Make Up, Books, et cetera.</td>
+            </tr>
+            <tr>
+                <td>Games</td>
+                <td>Genshin Impact (AR50, Asia), Honkai: Star Rail (TL70, Asia), MLBB (EXP, Tank, Mid, Roam), etc.</td>
+            </tr>
+            <tr>
+                <td>Music</td>
+                <td>Classical Music (Beethoven, Tchaikovsky, Rachmaninoff, Vivaldi, Paganini), Taylor Swift, Beyoncé, Ariana Grande, Lorde, Doja Cat, Reza Artamevia, Rossa, Ratu, Day6, The Rose, wave to earth, Jung Seunghwan, DEAN, Big Naughty, GRAY, Ash Island, DPR Ian, DPR Live, My Chemical Romance, Queen, and the list still goes on.</td>
+            </tr>
+            <tr>
+                <td>Series</td>
+                <td>Gossip Girl, Insatiable, Sex And The City, Ratched, The White Lotus, Black Mirror, Sex Education, The End of the F---ing World, Modern Family, FRIENDS, Dark, BEEF, Bridgerton, Fellow Travelers, Glee, Never Let Me Go, Me and Thee, Only Friends, A Boss and A Babe, A Tale of Thousand Stars, Moonlight Chicken, 4Minutes, and the list still goes on.</td>
+            </tr>
+            <tr>
+                <td>Film</td>
+                <td>Everything Everywhere All At Once, Sympathy For Lady Vengeance, Gone Girl, Before Sunset, Decision To Leave, Perfect Blue, Parasite, Neon Genesis Evangelion: The End of Evangelion, 5 Centimeters Per Second, Eiffel... I'm In Love, Before Now & Then, The Handmaiden, Pride and Prejudice, Princess Mononoke, Pearl, How To Lose A Guy In 10 Days. <b>Honorable Mention</b>: Your Name Engraved Herein, Red, White & Royal Blue, Challengers, Brokeback Mountain.</td>
+            </tr>
+            <tr>
+                <td>Animanga</td>
+                <td>Free! Iwatobi Swim Club, Haikyuu!, Moriarty The Patriot, Summer Time Rendering, Oyasumi Punpun, Monogatari Series, Banana Fish, Chainsaw Man, Psycho Pass, Wotakoi, Nichijou, Monster, Your Lie In April, Nisekoi, Assassination Classroom, The Millionaire Detective, Spy x Family, Jujutsu Kaisen, Yuri On Ice, Erased, Kuroko no Basuke, Jojo's Bizzare Adventure, Sakamoto Days, The Summer Hikaru Died, Daddy Buddies, Home Far Away, and the list still goes on.</td>
+            </tr>
+            <tr>
+                <td>Korean Dramas</td>
+                <td>Mr. Sunshine, My Liberation Notes, It's Okay That's Love, Anna, Kingdom, Eve, Penthouse, Taxi Driver, Move to Heaven, Moon Lovers, Goblin, Oh My Venus, 18 Again, Hi Bye Mama, Prison Playbook, Beyond Evil, Because This Is My First Life, Mouse, Signal, Daily Dose of Sunshine, and the list still goes on.</td>
+            </tr>
+            <tr>
+                <td>Manhwa/hua/Danmei</td>
+                <td>Code Name: Anastasia, Passion, Nerd Project, Wet Sand, Honey Bear, You Get Me Going, The New Recruit, Roses and Champagne, Under The Greenlight, Omniscient Reader's Viewpoint, Heaven Official's Blessings (TGCF), The Husky and His White Cat Shizun (2ha), and the list still goes on.</td>
+            </tr>
+            <tr>
+                <td>Kpop Groups</td>
+                <td>2nd gen in general, SEVENTEEN, MONSTA X, THE BOYZ, ZB1, LNGSHOT, RIIZE, ATEEZ, Oh My Girl, WJSN, Lovelyz, and many more.</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- DNF / DNI -->
+    <section class="content-section">
+        <h2 class="section-title">Places We Met</h2>
+        <p>If you're wondering who I am, maybe we met <a href="agency.html">here.</a></p>
+
+        <div class="danger-box">
+            <span style="font-size: 1.2rem;">⚠️</span> <strong>DNF/DNI</strong><br><br>
+            Minor, Homophobic, Heteronormativity, Basic <a href="https://dni-criteria.carrd.co/" target="_blank">DNF/DNI</a>, brings negativity A LOT, throwing any shades to my favorites, 02 voters, insensitive, can't read the room, tone deaf.
+        </div>
+    </section>
+
+    <!-- SOCIAL MEDIA -->
+    <section class="content-section" id="socials">
+        <h2 class="section-title">Another Social Media</h2>
+        
+        <div class="social-item">
+            <h4>1. Retrospring</h4>
+            <p>If there is something you want to tell me you can hit me up on my Retrospring or Neospring but please mind your words.<br>
+            -> <a href="https://retrospring.net/@niacinaltair" target="_blank">Retrospring</a> | <a href="https://neospring.org/@niacinamide" target="_blank">Neospring</a> <-</p>
+        </div>
+
+        <div class="social-item">
+            <h4>2. Spotify, Letterboxd, Goodreads</h4>
+            <p>Please do hit me up if you want to be mutuals there since my account is a personal one.</p>
+        </div>
+    </section>
+
+</body>
+</html>
