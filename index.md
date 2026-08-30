@@ -30,8 +30,9 @@ Altair()
 
 If you're wondering who I am, maybe we met [here.](agency.html)
 
-> ⚠️ **DNF/DNI** 
-> Minor, Homophobic, Heteronormativity, Basic [DNF/DNI](https://dni-criteria.carrd.co/), brings negativity A LOT, throwing any shades to my favorites, 02 voters, insensitive, can't read the room, tone deaf.
+## ⚠️ DNF/DNI
+
+Minor, Homophobic, Heteronormativity, Basic [DNF/DNI](https://dni-criteria.carrd.co/), brings negativity A LOT, throwing any shades to my favorites, 02 voters, insensitive, can't read the room, tone deaf.
 
 ## Another Social Media
 
