@@ -1,5 +1,3 @@
-# Altair's Page
-
 ```python
 def Altair():
     import Type Account as Cyber Account
