@@ -3,40 +3,40 @@
 @import "{{ site.theme }}";
 
 /* Background & Teks Utama */
-body {
-  background-color: #F2E0CF;
-  color: #2D2D23;
+body, .wrapper {
+  background-color: #F2E0CF !important;
+  color: #2D2D23 !important;
 }
 
 /* Warna Judul / Heading */
 h1, h2, h3, h4, h5, h6 {
-  color: #854628;
+  color: #854628 !important;
 }
 
 /* Warna Link */
 a {
-  color: #B48954;
-  text-decoration: none;
+  color: #B48954 !important;
+  text-decoration: none !important;
 }
 a:hover {
-  color: #854628;
-  text-decoration: underline;
+  color: #854628 !important;
+  text-decoration: underline !important;
 }
 
 /* Kotak DNF/DNI (Blockquote) */
 blockquote {
-  background-color: #D4C7B4;
-  border-left: 4px solid #7C7458;
-  color: #2D2D23;
-  padding: 10px 15px;
-  border-radius: 4px;
+  background-color: #D4C7B4 !important;
+  border-left: 4px solid #7C7458 !important;
+  color: #2D2D23 !important;
+  padding: 10px 15px !important;
+  border-radius: 4px !important;
 }
 
 /* Garis Tabel & Code Block */
 table th, table td {
-  border-bottom: 1px solid #7C7458;
+  border-bottom: 1px solid #7C7458 !important;
 }
 pre, code {
-  background-color: #D4C7B4;
-  color: #2D2D23;
+  background-color: #D4C7B4 !important;
+  color: #2D2D23 !important;
 }
