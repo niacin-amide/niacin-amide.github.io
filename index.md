@@ -8,7 +8,6 @@ def Altair():
     MBTI = INTJ/ISTJ 
     Big 3 = Capricorn Sun, Earth sign Moon and Rising.
     Enneagram = 6w5/1w9
-    Potterhouse = Ravenclaw
 
 Altair()
 ```
@@ -38,7 +37,7 @@ If you're wondering who I am, maybe we met [here.](agency.html)
 
 ### 1. Retrospring
 If there is something you want to tell me you can hit me up on my Retrospring or Neospring but please mind your words.
--> [Retrospring](https://retrospring.net/@niacinaltair) | [Neospring](https://neospring.org/@niacinamide) <-
+[Retrospring](https://retrospring.net/@niacinaltair) | [Neospring](https://neospring.org/@niacinamide)
 
 ### 2. Spotify, Letterboxd, Goodreads
 Please do hit me up if you want to be mutuals there since my account is a personal one.
